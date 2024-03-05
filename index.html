@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Metadatos -->
+		<meta charset="utf-8">
+		<meta name="author" content="Nereo">
+		<meta name="description" content="Portafolio de proyectos de Nereo">
+		<meta name="keywords" content="HTML, CSS, JavaScript, React">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Titulo -->
+		<title>Nereo | Desarrollo de Software</title>
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="imagenes/icono-nereo.png">
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<!-- Icono de Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">	
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Barra de navegacion -->
+		<nav class="navbar navbar-expand-md navbar-light">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbar-toggler">
+					<a class="navbar-brand" href="#">
+						<img src="imagenes/icono-nereo.png" width="50" alt="Logo de la página web">
+					</a>
+					<ul class="navbar-nav d-flex justify-content-center align-items-center">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#habilidades">Habilidades</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#proyectos">Proyectos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#intereses">Intereses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contacto">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Seccion Hero -->
+		<section class="hero align-items-stretch">
+			<div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+				<img class="hero-imagen-perfil" src="./imagenes/foto-nereo.png" alt="Foto de Nereo">
+				<h1>Hola, soy Nereo</h1>
+				<h2>Desarrollo aplicaciones web  y las integro con dispositivos IoT</h2>
+			</div>
+			<div class="hero-inferior">
+				<img class="hero-inferior-imagen img-fluid" src="imagenes/robot.png" alt="Herramientas del ingeniero">
+			</div>
+		</section>
+
+		<!-- Sobre mi -->
+		<section id="sobre-mi" class="sobre-mi seccion-oscura">
+			<div class="contenedor">
+				<h2 class="seccion-titulo texto-blanco">Conoce a Nereo</h2>
+				<p class="seccion-texto">¡Hola! Soy Nereo, un apasionado desarrollador de aplicaciones web con un enfoque vanguardista. Mi fascinación por la tecnología me ha llevado a explorar las infinitas posibilidades de integrar el mundo digital con el físico, especialmente en el ámbito del Internet de las Cosas y la Industria 4.0. Mi objetivo es crear soluciones innovadoras que no solo optimicen la experiencia web, sino que también impulsen la eficiencia y conectividad en la era digital. Bienvenido a mi espacio, donde la creatividad y la tecnología se encuentran para transformar ideas en realidades digitales emocionantes.</p>
+			</div>
+		</section>
+
+		<!-- Habilidades -->
+		<section id="habilidades" class="habilidades seccion-clara">
+			<div class="container text-center">
+				<div class="row">
+					<!-- Fronted -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-laptop"></i>
+						<p class="habilidad">Fronted</p>
+						<p>Como desarrollador frontend, domino HTML, CSS y JavaScript, y tengo experiencia destacada en la construcción eficiente de interfaces web atractivas utilizando React. Mi enfoque se centra en la creación de experiencias intuitivas y agradables, respaldado por habilidades sólidas en diseño responsivo y optimización del rendimiento.</p>
+						<div class="badges-contenedor">
+							<span class="badge text-bg-primary">HTML</span>
+							<span class="badge text-bg-primary">CSS</span>
+							<span class="badge text-bg-primary">JavaScript</span>
+							<span class="badge text-bg-primary">React</span>
+							<span class="badge text-bg-primary">Bootstrap</span>
+						</div>
+					</div>
+					<!-- Backend -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-database-fill-gear"></i>
+						<p class="experiencia-titulo">Backend</p>
+						<p>Como desarrollador backend, cuento con una sólida competencia en tecnologías clave como Spring, Express, .NET y C#. Mi experiencia abarca la implementación eficiente de lógica de servidor, creación de API robustas y gestión efectiva de bases de datos para garantizar un rendimiento óptimo. He trabajado en proyectos que requieren un manejo eficiente de datos y una arquitectura backend sólida.</p>
+						<div class="badges-contenedor">
+							<span class="badge text-bg-primary">Spring</span>
+							<span class="badge text-bg-primary">Express</span>
+							<span class="badge text-bg-primary">.Net</span>
+							<span class="badge text-bg-primary">C#</span>
+						</div>
+					</div>
+					<!-- Base de Datos y Nube -->
+					<div class="columna col-12 col-md-4">
+						<i class="bi bi-cloud"></i>
+						<p class="experiencia-titulo">Base de Datos y Nube</p>
+						<p>Poseo habilidades especializadas en la administración y optimización de sistemas de bases de datos, destacándome en plataformas como MySQL y SQL Server. Mi experiencia se extiende a la implementación y gestión de soluciones en la nube, con conocimientos en entornos como AWS y GCP. He desarrollado e implementado estrategias eficientes para garantizar la escalabilidad, la seguridad y el rendimiento óptimo de las bases de datos en entornos de nube</p>
+						<div class="badges-contenedor">
+							<span class="badge text-bg-primary">Mysql</span>
+							<span class="badge text-bg-primary">SQL Server</span>
+							<span class="badge text-bg-primary">AWS</span>
+							<span class="badge text-bg-primary">GCP</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Proyectos -->
+		<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+			<h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+			<h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+			<!-- Galeria de Proyectos -->
+			<div class="container text-center proyectos-contenedor">
+				<div class="row">
+					<!-- Proyecto 1 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="imagenes/proyecto1.png" alt="Foto de sistema de alerta antirobo">
+							<div class="overlay">
+								<p>SISTEMA DE ALERTA</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Proyecto 2 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="imagenes/proyecto2.png" alt="Foto de Eldertech">
+							<div class="overlay">
+								<p>ELDERTECH</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Proyecto 3 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="imagenes/proyecto3.png" alt="Proyecto 3">
+							<div class="overlay">
+								<p>RADAR</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Proyecto 4 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="imagenes/proyecto4.png" alt="Proyecto 4">
+							<div class="overlay">
+								<p>Proyecto 4</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Proyecto 5 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="imagenes/proyecto5.png" alt="Proyecto 5">
+							<div class="overlay">
+								<p>Proyecto 5</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Proyecto 6 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="proyecto">
+							<img src="imagenes/proyecto6.png" alt="Proyecto 6">
+							<div class="overlay">
+								<p>Proyecto 6</p>
+								<div class="iconos-contenedor">
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-github"></i>
+									</a>
+									<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+										<i class="bi bi-laptop"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+				<button type="button" class="btn btn-info">
+					Ver más proyectos
+					<i class="bi bi-arrow-right-circle-fill"></i>
+				</button>
+			</a>
+		</section>
+
+		<!-- Intereses -->
+		<section id="intereses" class="intereses seccion-clara">
+			<h2 class="seccion-titulo">Intereses</h2>
+			<h3 class="seccion-descripcion">Estos son algunos de mis intereses...</h3>
+			<!-- Carrusel -->
+			<div id="intereses-carrusel" class="carousel carousel-dark slide">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<div class="container">
+						<img class="interes-imagen rounded-circle" src="imagenes/industria4z.jpg" alt="Foto">
+						<p class="interes-texto">En la Industria 4.0, mi enfoque se centra en la innovación constante y la adaptabilidad, explorando las tecnologías emergentes para impulsar el progreso empresarial.</p>
+						<div class="interes-info">
+							<p class="tema">Industria 4.0</p>
+							<!-- <p class="descripcion"></p> -->
+						</div>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="container">
+						<img class="interes-imagen rounded-circle" src="imagenes/iot.png" alt="Foto">
+						<p class="interes-texto">Mi interés en IoT destaca la conectividad inteligente, explorando la sinergia de datos para impulsar soluciones innovadoras y eficientes.</p>
+						<div class="interes-info">
+							<p class="tema">IoT</p>
+							<!-- <p class="descripcion"></p> -->
+						</div>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="container">
+						<img class="interes-imagen rounded-circle" src="imagenes/iaa.jpeg" alt="Foto">
+						<p class="interes-texto">Apasionado por la IA, busco fusionar conocimientos y creatividad en cada proyecto, explorando el potencial infinito de la inteligencia artificial.</p>
+						<div class="interes-info">
+							<p class="tema">IA</p>
+							<!-- <p class="descripcion"></p> -->
+						</div>
+					</div>
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#intereses-carrusel" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Anterior</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#intereses-carrusel" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Siguiente</span>
+				</button>
+			  </div>
+		</section>
+
+		<!-- Contacto -->
+		<section id="contacto" class="contacto seccion-oscura">
+			<div class="container">
+				<div class="container text-center rectangulo d-flex justify-content-evenly">
+					<div class="row">
+						<div class="col-12 col-md-4 seccion-titulo">
+							¡Hablemos!
+						</div>
+						<div class="col-12 col-md-4 descripcion">
+							Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se haga realidad
+						</div>
+						<div class="col-12 col-md-4">
+							<a href="mailto:ludwinereo@gmail.com">
+								<button type="button">
+									Contacto
+									<i class="bi bi-envelope-check-fill"></i>
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+			<img class="footer-logo" src="imagenes/icono-nereo.png" alt="Logo">
+			<p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos</p>
+			<div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center" >
+				<a href="https://github.com/LUDWINEREOZ" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-github"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/ludwin-nereo-cahuaya-chino-308267256/" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-linkedin"></i>
+				</a>
+				<a href="https://www.instagram.com/ne_reo/" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-instagram"></i>
+				</a>
+				<a href="mailto:ludwinereo@gmail.com" target="_blank" rel="noopener noreferrer">
+					<i class="bi bi-envelope"></i>
+				</a>
+			</div>
+		</footer>
+
+
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
+</html>
